@@ -7,8 +7,7 @@
 #include "esp_system.h"
 #include "driver/gpio.h"
 #include "esp_rom_gpio.h"
-//#include "driver/uart_struct.h"
-#include "C:/Users/KasimovM/esp/v5.2.1/esp-idf/components/soc/esp32s3/include/soc/uart_struct.h"
+#include "soc/uart_struct.h"
 
 #define BLINK_GPIO 2
 
